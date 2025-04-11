@@ -1,7 +1,7 @@
-site_name: MkDocs Material Demo
-site_url: https://bergmann-max.github.io/MkDocs-Material-Demo/
-repo_url: https://github.com/bergmann-max/MkDocs-Material-Demo
-repo_name: bergmann-max/MkDocs-Material-Demo
+site_name: Tech Notes
+site_url: https://bergmann-max.github.io/tech-notes/
+repo_url: https://github.com/bergmann-max/tech-notes
+repo_name: bergmann-max/tech-notes
 edit_uri: blob/master/docs/
 site_dir: public
 nav:
@@ -9,7 +9,7 @@ nav:
 theme:
     name: material
     custom_dir: overrides
-    language: en
+    language: de
     logo: assets/logo.png
     favicon: assets/favicon.ico
     icon:
@@ -53,7 +53,6 @@ theme:
     highlightjs: true
     hljs_languages:
         - yaml
-        - rust
         - bash
         - powershell
         - python
@@ -78,8 +77,6 @@ theme:
         - ruby
         - sql
         - shell
-        - vba
-        - vbscript
     palette:   
     # Palette toggle for light mode
     - scheme: default
@@ -95,7 +92,7 @@ plugins:
     - tags:
         tags_file: tags.md
     - search:
-        lang: en
+        lang: de
         separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
     - glightbox:
         touchNavigation: true
