@@ -1,0 +1,5 @@
+mkdocs-material
+mkdocs[i18n]
+mkdocs-glightbox
+mkdocs-git-revision-date-localized-plugin
+mkdocs-table-reader-plugin
